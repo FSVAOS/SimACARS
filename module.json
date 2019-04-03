@@ -1,0 +1,16 @@
+{
+    "name": "SimACARS",
+    "alias": "simacars",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SimACARS\\Providers\\SimACARSServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
