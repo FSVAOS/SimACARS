@@ -2,7 +2,7 @@
 
 Route::group(['middleware' => 'web', 'prefix' => 'simacars', 'namespace' => 'Modules\SimACARS\Http\Controllers'], function()
 {
-    oute::post('/vam_acars_remove_book_aircraft.php', 'SimAcarsController@removeBookAircraft');
+    Route::post('/vam_acars_remove_book_aircraft.php', 'SimAcarsController@removeBookAircraft');
     Route::post('/vam_acars_get_aircraft.php', 'SimAcarsController@getAircraft');
     Route::post('/vam_acars_pilot_connection.php', 'SimAcarsController@pilotConnection');
     Route::post('/vamliveacars.php', 'SimAcarsController@liveAcars');
