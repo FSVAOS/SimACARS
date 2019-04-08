@@ -1,4 +1,4 @@
-# SmartCARS
+# SimACARS
 The Official SimACARS Compatibility Module for VAOS
 
 # Install Instructions
